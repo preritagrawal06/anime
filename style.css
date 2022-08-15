@@ -73,11 +73,11 @@ body{
     
 }
 .card:hover .content .name{
-    transform: translateY(-200px);
+    transform: translateY(-150px);
 }
 .card:hover .content .data{
     display: inherit;
-    transform: translate(0px, -180px);
+    transform: translate(0px, 0px);
     
 }
 #about{
