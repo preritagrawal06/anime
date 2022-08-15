@@ -62,8 +62,8 @@ body{
     text-align: center;
     width: 100%;
     transition: 0.5s;
-    
 }
+
 .card .name{
     transform: translateY(0px);
     transition: 0.5s;
@@ -73,10 +73,17 @@ body{
     
 }
 .card:hover .content .name{
-    transform: translateY(-330px);
+    transform: translateY(-200px);
 }
 .card:hover .content .data{
-    display: inline;
+    display: inherit;
+    transform: translate(0px, -180px);
+    
+}
+#about{
+    justify-content: center;
+    text-align: center;
+    
 }
 .card .content .details h2{
     font-size: 1.25em;
@@ -100,6 +107,7 @@ body{
     line-height: 1.2em;
     font-weight: 600;
 }
+
 .loader_bg{
     position: fixed;
     z-index: 9999;
