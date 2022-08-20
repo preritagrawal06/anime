@@ -8,7 +8,7 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
-    min-height: 150vh;
+    min-height: 110vh;
     background: linear-gradient(55deg, #fbda61, #58e1e1);
 }
 .card{
@@ -138,7 +138,7 @@ body{
     width: 150px;
     height: 150px;
     position: absolute;
-    top: calc(50vh - 75px);
+    top: calc(80vh);
     left: calc(50vw - 75px);
 }
 .loader::before, .loader::after{
