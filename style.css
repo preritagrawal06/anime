@@ -97,6 +97,7 @@ body{
     padding: 8px 15px 8px 15px;
     text-decoration: none;
     border-style: none;
+    cursor: pointer;
 }
 .moreInfoBtn:hover{
     background: #05dd95
