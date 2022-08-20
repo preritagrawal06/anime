@@ -21,7 +21,7 @@ fetch(url).then(Response => {
      moreInfo.href = `${moreInfoUrl}`;
     let pointer = charAbout.indexOf('.');
     console.log(pointer);
-    about.innerHTML = `${charAbout.substring(0,pointer)}`;
+    about.innerHTML = `${charAbout.substring(0,pointer+1)}`;
 })
 fetch(url_anime).then(response => {
     return response.json();
